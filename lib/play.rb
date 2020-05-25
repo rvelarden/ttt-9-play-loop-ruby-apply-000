@@ -37,9 +37,13 @@ end
 
 # Define your play method below
 def play(board)
-  final_move = 7
-  until final_move == 9
-  final_move +=1
-  turn(board)
+def using_until
+  levitation_force = 6
+  until levitation_force == 10
+
+  #your code here
+  puts "Wingardium Leviosa"
+  levitation_force +=1
 end
  end
+  end
