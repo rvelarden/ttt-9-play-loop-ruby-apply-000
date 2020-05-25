@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-puts board
+puts turn(board)
   levitation_force = 6
   until levitation_force == 10
 
