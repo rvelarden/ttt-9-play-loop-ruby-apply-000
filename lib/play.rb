@@ -37,11 +37,10 @@ end
 
 # Define your play method below
 def play(board)
-
+puts board
   levitation_force = 6
   until levitation_force == 10
 
-  
   puts "Wingardium Leviosa"
   levitation_force +=1
 end
